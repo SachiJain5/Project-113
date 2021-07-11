@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Camera
+  </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <style type="text/css">
+ body{
+    background-color: rgb(198, 153, 228);
+}
+h3
+{
+  font-size: 25px !important;
+  color:rgb(150, 22, 201);
+}
+canvas {
+    border:5px solid rgb(147, 56, 184);
+}
+button{
+    height: 40px;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: rgb(218, 218, 250);
+    color: rgb(139, 139, 236);
+    font-size: 15px bold;
+}
+  </style>
+</head>
+
+<body>
+<div class="container">
+	<h3 class="btn btn-primary">Digital Camera</h3>
+	<hr>
+  <label>Filter Color</label>
+  <br><br>
+  <input placeholder="Enter Filter Color" id="color's_name">
+  <br><br>
+  <button onclick="filter()">Apply Filter</button>
+  <br><br>
+  <button onclick="take_snapshot()">Take Snapshot</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
